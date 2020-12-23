@@ -1,6 +1,8 @@
 # Happy 2.0
 This project was developed during the Next Level Week 3.
 
+![ProjectImage](https://github.com/[Sobraloser]/[Happy-2.0-NLW-3-COMPLETE]/blob/[main]/Happy-Git_Image.png?raw=true)
+
 # About the project
 
 Happy is a Web and Mobile application that allows users to register and find orphanages. Visiting users are offered details of the orphanage, such as times and instructions for visiting the orphanage.
