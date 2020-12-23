@@ -17,6 +17,7 @@ This application was developed during the Next Level Week # 3, a Rocketseat proj
 * Typescript
 * TypeORM
 * SQLite
+* Json Web Token (JWT)
 * Yarn
 * NodeJs
 * ReactJS
