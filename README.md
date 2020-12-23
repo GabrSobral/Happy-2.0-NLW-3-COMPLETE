@@ -11,16 +11,16 @@ This application was developed during the Next Level Week # 3, a Rocketseat proj
 
 # Techs
 
-*Express
-*Axios
-*Leaflet
-*Typescript
-*TypeORM
-*SQLite
-*Yarn
-*NodeJs
-*ReactJS
-*React Native
+* Express
+* Axios
+* Leaflet
+* Typescript
+* TypeORM
+* SQLite
+* Yarn
+* NodeJs
+* ReactJS
+* React Native
 
 # How to install
 
