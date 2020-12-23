@@ -43,7 +43,7 @@ This application was developed during the Next Level Week # 3, a Rocketseat proj
 git clone https://github.com/Sobraloser/Happy-2.0-NLW-3-COMPLETE.git
 ```
 
-# Step 2
+## Step 2
 
 ### Installing dependencies
 
