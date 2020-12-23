@@ -1,0 +1,72 @@
+#Success-page{
+    width: 100%;
+    height:100vh;
+    background: #37C77F;
+    display: flex;
+    align-items: center;
+    justify-content:center
+}
+#Success-page .content-wrapper{
+    width: 100%;
+    max-width: 1000px;
+    
+    height: 90%;
+    max-height: 680px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#Success-page .content-wrapper main{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    flex-direction: column;
+    width : 430px;
+    height: 55vh;
+}
+#Success-page .content-wrapper main h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 80px;
+}
+#Success-page .content-wrapper main  p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;  
+}
+#Success-page .content-wrapper main .buttons-yes-no{
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content:center;
+}
+#Success-page .content-wrapper main .buttons-yes-no a{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+    height: 64px;
+
+    background-color: #31B272;
+    color: #FFf;
+    font-size: 23px;
+
+    transition: 0.3s ease;
+}
+#Success-page .content-wrapper main .buttons-yes-no a:hover{
+    background-color:#3BD689;
+}

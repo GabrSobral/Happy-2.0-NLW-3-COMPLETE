@@ -1,0 +1,157 @@
+.container .contentUser{
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+}
+.container .contentUser .User{
+    position: relative;
+    margin: 20px 0px;
+    width: 100%;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+    color: #8FA7B2;
+    box-shadow: 1px 1px 5px rgb(216, 216, 216);
+    line-height: 25px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+.container .contentUser .User span{
+    font-size: 15px;
+}
+.container .contentUser .User .createdAt{
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.container .contentUser .User .options{
+    display: flex;
+    justify-content: flex-end;
+}
+.container .contentUser .User .options button{
+    width: 48px;
+    height: 48px;
+    margin-left: 15px;
+  
+    border: 0;
+  
+    border-radius: 16px;
+  
+    transition: background-color 0.2s;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #EBF2F5;
+}
+.container .contentUser .User .options button:hover{
+    background-color: #d3d3d3 ;
+}
+
+.User .buttonsPopupDelete{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.User .buttonsPopupDelete button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 55px;
+    border-radius: 20px;
+    background-color: #FF669D;
+    border: none;
+    color: #FFF;
+
+    transition: 0.3s ease;
+}
+.User .buttonsPopupDelete button:hover{
+    opacity: 0.6;
+}
+.User .buttonsPopupDelete .yes{
+    background-color: #31B272;
+}
+
+.backgrondPopup{
+    position: fixed;
+    z-index: 7;
+    width: 100%;
+    padding-left: 96px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(34, 34, 34, 0.357);
+}
+.backgrondPopup .User{
+    position: relative;
+    margin: 20px 0px;
+    width: 400px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+    color: #8FA7B2;
+    box-shadow: 1px 1px 5px rgb(216, 216, 216);
+    line-height: 25px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+.container .loadingUsers{
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+    
+    margin-top: 30vh;
+}
+.User .createdAt{
+    font-size: 12px;
+}
+.User .WishYouDelete{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.container  .dontHaveUsers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; 
+    vertical-align: middle;
+    
+    margin-top: 30vh;
+}
+
+.container  .dontHaveUsers svg{
+    margin: auto;
+}
+.container  .dontHaveUsers span{
+    color: #8FA7B2;
+    margin-top:20px;
+    text-align: center;
+}
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .alert-exit {
+    opacity: 1;
+  }
+  .alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}
+
+

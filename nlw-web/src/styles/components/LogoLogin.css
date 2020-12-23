@@ -1,0 +1,26 @@
+#login-page .main-logo{ 
+    margin: auto;
+
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+.main-logo img{
+    height: 20vh;
+}
+.main-logo .logo{
+    margin-top: -20px;
+    font-size: 120px;
+    font-weight:800;
+}
+.main-logo .location {
+    margin-top: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    flex-direction: column;
+}

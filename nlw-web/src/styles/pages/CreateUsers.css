@@ -1,0 +1,116 @@
+
+#dashboard main .container .content .block{
+    width: 400px;
+    margin: 15vh auto 0px auto;
+
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgb(160, 160, 160);
+    border-radius: 20px;
+
+    display:flex;
+    flex-direction: column;
+
+    padding: 25px;
+    color: #8FA7B2;
+}
+#dashboard main .container .content .block div{
+    position: relative;
+    width: 100%;
+}
+
+#dashboard main .container .content .block div input{
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #D3E2E5;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    color: #8FA7B2;
+
+    outline: none;
+}
+#dashboard main .container .content .block div svg{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    pointer-events: none;
+}
+#dashboard main .container .content .block select{
+    width: 170px;
+    height: 45px;
+
+    border-radius: 7px;
+    padding-left: 40px;
+    outline: none;
+
+    margin-bottom: 15px;
+    color: #555f64;
+}
+#dashboard main .container .content .block select option{
+    height: 50px;
+}
+#dashboard main .container .content .block button{
+    width: 100%;
+    height: 64px;
+
+    margin-top: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    background-color: #37C77F;
+    color:#fff;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease
+}
+#dashboard main .container .content .block button:hover{
+    opacity: 0.6;
+}
+#dashboard main .container .content .block div .radio{
+    height: 15px;
+}
+#dashboard main .container .content .block .radioDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dashboard main .container .content .block .radioDiv div .radio{
+    margin: 0 0 0 10px;
+    width: 15px;
+}
+#dashboard main .container .content .block .radioDiv div{
+    width: auto;
+    display: inline;
+}
+#dashboard main .container .content .block .radioDiv div .radio:checked:after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #29B6D1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.SentEmailMessage{
+    left: 150px;
+}
+.container .content #warning{
+    width: 100%;
+    text-align: center;
+    color: red;
+    margin: 5px 0px;
+}
+
+
+
+
