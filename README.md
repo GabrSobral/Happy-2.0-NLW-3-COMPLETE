@@ -1,7 +1,7 @@
 # Happy 2.0
 This project was developed during the Next Level Week 3.
 
-![ProjectImage](https://github.com/[Sobraloser]/[Happy-2.0-NLW-3-COMPLETE]/blob/[main]/Happy-Git_Image.png?raw=true)
+![ProjectImage](https://github.com/Sobraloser/Happy-2.0-NLW-3-COMPLETE/blob/main/Happy-Git_Image.png?raw=true)
 
 # About the project
 
