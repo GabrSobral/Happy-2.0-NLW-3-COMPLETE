@@ -25,6 +25,15 @@ This application was developed during the Next Level Week # 3, a Rocketseat proj
 * ReactJS
 * React Native
 
+# Features
+
+- Login page, made for administrators to approve registration requests.
+- Users can create and request new orphanages to be approved by admins
+- Admin can approve, reject, or update orphanages
+- Image upload in create new orphanage
+- Used leaflet map to show the registered orphanages
+- Send email to change password
+
 # How to install
 
 ## Prerequisites
